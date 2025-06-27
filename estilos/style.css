@@ -32,3 +32,30 @@ section#telefone {
     width: 311px;
     background: url(../pacote-d013/imagens/frame-iphone.png) no-repeat;
 }
+
+#redes-sociais {
+    float: right;
+}
+
+#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.39);
+    box-sizing: border-box;
+}
+
+#redes-sociais img:hover {
+    border: 10px solid rgba(158, 158, 158, 0.26);
+    transform: translateY(-3px);
+    transition: 0.2s;
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
+}
+
