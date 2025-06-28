@@ -51,6 +51,10 @@ section#telefone {
     transition: 0.2s;
 }
 
+#redes-sociais img:active {
+    border: 0px solid rgba(158, 158, 158, 0.26);
+}
+
 iframe#tela {
     position: relative;
     top: 80px;
